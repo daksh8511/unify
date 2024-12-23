@@ -1,0 +1,144 @@
+/* for SmartPhone  */
+@media screen and (max-width: 767px) {
+  header nav .leftnav ul {
+    display: none;
+  }
+  .banner {
+    display: block;
+  }
+  .leftbanner {
+    width: 100%;
+  }
+  .leftbanner h2 {
+    font-size: calc(1.5rem + 3vw);
+  }
+  .leftbanner h3 {
+    font-size: calc(1.5rem + 3vw);
+  }
+
+  .leftbanner p {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .leftbanner .button {
+    display: block;
+  }
+
+  .rightbanner {
+    width: 100%;
+  }
+
+  .service-container {
+    display: block;
+    margin-top: 100px;
+  }
+
+  .design {
+    display: block;
+  }
+  .design .designleft {
+    width: 100%;
+  }
+  .designright {
+    width: 100%;
+  }
+  .designright {
+    padding: 0;
+    margin-top: 10px;
+  }
+  .designright h2 {
+    font-size: calc(1.425rem + 2.1vw);
+  }
+  .designright ul {
+    margin-top: 10px;
+  }
+
+  .other-service {
+    display: block;
+  }
+
+  .startup {
+    display: block;
+  }
+  .startup .startupleft {
+    width: 100%;
+  }
+  .startupright {
+    width: 100%;
+    padding: 0;
+  }
+
+  .sponsored {
+    display: block;
+    text-align: center;
+  }
+  .sponsored img {
+    margin-bottom: 70px;
+  }
+  .collab {
+    display: block;
+  }
+  .collab .box p {
+    height: 130px;
+  }
+}
+
+
+
+/* for tablet screen */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .banner {
+    display: block;
+  }
+  .banner .leftbanner {
+    width: 100%;
+  }
+  .banner .rightbanner {
+    width: 100%;
+    margin-top: 18px;
+  }
+
+  .service-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .design {
+    display: block;
+  }
+  .designleft{
+    width: 100%;
+  }
+  .designright{
+    width: 100%;
+  }
+
+  .startup {
+    display: block;
+  }
+  .startupleft{
+    width: 100%;
+  }
+  .startupright{
+    width: 100%;
+  }
+  .sponsored img{
+    width: 100%;
+  }
+  .collab .box p{
+    height: 158px;
+  }
+}
+
+
+/* for desktop screen */
+
+@media screen and (min-width : 1024px){
+    .sponsored img{
+        width: 100%;
+    }
+    .collab .box p{
+        height: 115px;
+    }
+}
